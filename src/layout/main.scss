@@ -1,0 +1,59 @@
+nav {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+        color: #333;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+main {
+    max-width: 1500px;
+    width: 100%;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.intro {
+    max-width: 650px;
+    margin: 25vh auto;
+
+    h1 {
+        color: #1DBBC3;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+        input {
+            width: 300px;
+            padding: 6px;
+            border: 3px solid #e4e0e0;
+            border-radius: 4px;
+            outline: none;
+
+            &:focus-visible {
+                border: 3px solid #1DBBC3;
+            }
+        }
+
+        button {
+            margin-top: 5px;
+            width: 90px;
+        }
+    }
+}

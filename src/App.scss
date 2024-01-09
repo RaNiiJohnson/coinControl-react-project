@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 1400px;
+  background: #fffdfd;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #3333334f;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  background: #1DBBC3;
+  color: #fff;
+  border: none
+}
+
+h2.h2 {
+  margin: 30px 0 10px;
+}
+
+button {
+  cursor: pointer;
+}
