@@ -1,8 +1,14 @@
-# React + Vite
+# Projet React avec React Router v6
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est un exemple simple pour illustrer l'utilisation de la version 6 de React Router dans une application React.
 
-Currently, two official plugins are available:
+## Prérequis
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Assurez-vous d'avoir Node.js et npm installés sur votre machine.
+
+## Installation
+
+1. Clonez ce dépôt sur votre machine :
+   ```bash
+   git clone https://github.com/RaNiiJohnson/coinControl-react-project.git
+
